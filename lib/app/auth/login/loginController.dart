@@ -24,6 +24,7 @@ class LoginController extends GetxController {
       this.timeLeft.value--;
       if (this.timeLeft.value <= 0) {
         timer.cancel();
+        timeLeft.value = 0;
         if (resetForm) resetLoginForm();
       }
     });

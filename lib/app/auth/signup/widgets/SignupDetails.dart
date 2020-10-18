@@ -117,8 +117,8 @@ class SignupDetailsWidget extends StatelessWidget {
                       alignment: Alignment.center,
                       child: Text(
                         "NEXT",
-                        style: theme.accentTextTheme.headline6
-                            .copyWith(fontWeight: FontWeight.bold),
+                        style: theme.accentTextTheme.subtitle1.copyWith(
+                            fontWeight: FontWeight.bold, letterSpacing: 1.25),
                       ),
                     ),
                   ),
