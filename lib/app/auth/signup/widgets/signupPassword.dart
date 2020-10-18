@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:login_amp/Global/config.dart';
-import 'package:login_amp/app/auth/login/loginpage.dart';
 import 'package:login_amp/app/auth/signup/widgets/passwordCriteria.dart';
-import 'package:login_amp/routes/routes.dart';
 
 import '../signupController.dart';
 
