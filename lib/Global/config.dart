@@ -11,10 +11,8 @@ class Constants {
   static const Color ktextInputFieldBg = Colors.white12;
 
   // Urls
-  static const String googleIconSvg =
-      "https://www.flaticon.com/svg/static/icons/svg/281/281764.svg";
-  static const String fbIconSvg =
-      "https://www.flaticon.com/svg/static/icons/svg/281/281764.svg";
+  static const String googleIconSvg = "assets/svg/google.svg";
+  static const String fbIconSvg = "assets/svg/facebook.svg";
 
   /// DropDown item labels
 

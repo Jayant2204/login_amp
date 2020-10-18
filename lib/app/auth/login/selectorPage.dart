@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:login_amp/Global/config.dart';
 import 'package:login_amp/app/auth/signup/signupPage.dart';
@@ -47,7 +48,8 @@ class SelectorPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.ac_unit),
+                    SvgPicture.asset(Constants.fbIconSvg,
+                        height: 24, width: 24),
                     SizedBox(width: 5),
                     Text(
                       "Sign up with Facebook".toUpperCase(),
@@ -72,10 +74,8 @@ class SelectorPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.ac_unit,
-                      color: Constants.kblack,
-                    ),
+                    SvgPicture.asset(Constants.googleIconSvg,
+                        height: 24, width: 24),
                     SizedBox(width: 5),
                     Text(
                       "Sign up with Google".toUpperCase(),

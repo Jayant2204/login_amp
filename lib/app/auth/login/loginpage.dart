@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:login_amp/Global/config.dart';
 import 'package:login_amp/app/auth/login/loginController.dart';
@@ -104,7 +105,8 @@ class LoginPage extends StatelessWidget {
                         backgroundColor: Constants.kyellow,
                         colorText: Constants.kblack);
                   },
-                  icon: Icon(Icons.ac_unit),
+                  icon: SvgPicture.asset(Constants.fbIconSvg,
+                      height: 24, width: 24),
                   label: Text(
                     "Continue with Facebook",
                   )),
@@ -116,7 +118,8 @@ class LoginPage extends StatelessWidget {
                         backgroundColor: Constants.kyellow,
                         colorText: Constants.kblack);
                   },
-                  icon: Icon(Icons.ac_unit),
+                  icon: SvgPicture.asset(Constants.googleIconSvg,
+                      height: 24, width: 24),
                   label: Text(
                     "Continue with Google",
                   )),
